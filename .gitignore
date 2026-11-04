@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local OpenCode config, keys and backups — never commit these
+opencode.json
+opencode.jsonc
+*.bak-*
+.env
+.env.*
+
+# Local tooling output
+.codegraph/
+graphify-out/
+.opencode/
+AGENTS.md
+preview/appdata*/
+preview/debug*
+*.log
+*.tmp
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
